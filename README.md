@@ -16,7 +16,7 @@ API REST em **Java 21** para cadastro dos livros de uma biblioteca, **migrada do
 
 ## Uso de IA
 
-Foi utilizada a IA **Claude (Anthropic)** como apoio na adaptação do projeto-base para o domínio de livros, na **migração para Spring Boot**, na escrita dos testes, do `requests.http`, da coleção Postman e deste README. Todo o código foi lido, executado e é compreendido por todos os integrantes do grupo, que são responsáveis por explicá-lo.
+O desenvolvimento deste projeto contou com o suporte da IA **Claude (Anthropic)** como ferramenta de produtividade, auxiliando na adaptação do projeto-base para o domínio de livros, na **migração para Spring Boot** e na elaboração da documentação e testes. Todo o código foi lido, executado e validado pelos integrantes do grupo, que dominam a sua implementação e são responsáveis por explicá-lo.
 
 ## Versão anterior (Mini Spring)
 
