@@ -1,13 +1,17 @@
 package br.com.minispring.exemplo;
 
-import br.com.minispring.framework.MiniApplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-public final class Application {
-    public static void main(String[] args) throws Exception {
-        // A aplicação entrega o controle ao framework. Não precisamos criar controllers
-        // e services manualmente. AutoCloseable permite encerrar o Jetty ao sair deste bloco.
-        try (var app = MiniApplication.run(Application.class)) {
-            app.await();
-        }
+/**
+ * Ponto de entrada. @SpringBootApplication = @Configuration + @EnableAutoConfiguration + @ComponentScan.
+ * O Spring varre este pacote e os subpacotes (controller, service, repository...) e cria os beans;
+ * isso substitui o MiniApplication + ComponentScanner + ApplicationContext do Mini Spring.
+ * O Tomcat embutido é iniciado automaticamente na porta de server.port.
+ */
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
     }
 }

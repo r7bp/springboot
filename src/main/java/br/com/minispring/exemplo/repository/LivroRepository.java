@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * A aplicação depende de uma abstração; o container encontra a implementação.
+ * A aplicação depende de uma abstração; o container do Spring encontra a implementação (@Repository).
  */
 public interface LivroRepository {
     Livro create(String titulo, int numeroPaginas);

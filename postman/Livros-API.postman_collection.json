@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "API Catálogo de Livros — Grupo 6",
-    "description": "Coleção para a demonstração. Inicie a API (java -jar target/mini-spring-1.0.0.jar) e use Collection Runner para rodar tudo em sequência.",
+    "description": "Coleção para a demonstração. Inicie a API (java -jar target/livros-api-2.0.0.jar) e use Collection Runner para rodar tudo em sequência.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
